@@ -4,7 +4,7 @@
 
 - 🌱 I'm currently learning everything 🙂
 - 🔥 At the moment i'm really invested in [Rust](https://www.rust-lang.org/)
-- 🥅 2020 Goals: Actually end a project i began 🤣 
+- 🥅 2021 Goals: Actually end a project i began 🤣 
 
 ### Connect with me:
 
