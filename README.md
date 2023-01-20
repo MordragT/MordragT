@@ -4,7 +4,7 @@
 
 <div align="center">
 
-## **I am currently studying computer science in the master's program**
+### **I am currently studying computer science in the master's program**
 <br>
 
 🌱 I'm currently learning more about Nix! <br><br>
@@ -21,14 +21,14 @@
 <br>
 <div align="center">
 
-  ## **Actively Using & Learning**
+  ### **Actively Using & Learning**
   <br>
 
   ![Skills actively using and learning](https://skillicons.dev/icons?i=rust,linux,git,kotlin,py,latex,bevy,blender)
   <br>
   <br>
 
-  ## **Plan to Learn**
+  ### **Plan to Learn**
   <br>
 
   ![Skills planning to learn](https://skillicons.dev/icons?i=zig,haskell,julia,dart,arduino)
@@ -42,7 +42,7 @@
 <br>
 <div align="center">
   
-  ## **My Github Stats**
+  ### **My Github Stats**
   <br>
 
   <!-- <img src="https://github-profile-trophy.vercel.app/?username=MordragT&theme=algolia&no-frame=true&no-bg=true&row=1&column=5" width="100%" alt="Trophy" align="middle"  /> <br> <br> -->
