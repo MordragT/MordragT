@@ -47,11 +47,11 @@
 
   <!-- <img src="https://github-profile-trophy.vercel.app/?username=MordragT&theme=algolia&no-frame=true&no-bg=true&row=1&column=5" width="100%" alt="Trophy" align="middle"  /> <br> <br> -->
 
-  ![Stats](https://github-readme-stats-i66v.vercel.app/api?username=MordragT&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=tokyonight)
+  ![Stats](https://github-readme-stats.vercel.app/api?username=MordragT&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=tokyonight)
 
   <!-- <img src="https://streak-stats.demolab.com?user=MordragT&theme=highcontrast&hide_border=true&border_radius=0&ring=2100FA&background=000000&fire=0079FA&currStreakNum=0079FA&dates=0079FA&sideNums=0079FA&currStreakLabel=0079FA&stroke=0079FA&sideLabels=0079FA" height="150" alt="streaks graph"  /> -->
     
-  ![Most used languages](https://github-readme-stats-i66v.vercel.app/api/top-langs/?username=MordragT&layout=compact&theme=tokyonight&hide_border=true&langs_count=7)
+  ![Most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MordragT&layout=compact&theme=tokyonight&hide_border=true&langs_count=7)
   <br>
 
   <!-- [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=MordragT&repo=hua&show_owner=true&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/anandmainali/PackageTemplate)
