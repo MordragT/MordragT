@@ -1,0 +1,24 @@
+name: README build
+on:
+  push:
+    branches:
+      - main
+      - master
+  schedule:
+    - cron: "0 4 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Build Rust project
+        run: cargo build --release
+      - name: Run GitHub stats generator
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          USER_NAME: ${{ secrets.USER_NAME }}
+        run: ./target/release/fetchme
