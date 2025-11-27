@@ -22,3 +22,10 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           USER_NAME: ${{ secrets.USER_NAME }}
         run: ./target/release/fetchme
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@mordragt.github.io"
+          git add .
+          git commit -m "Update GitHub stats" || echo "No changes to commit"
+          git push
