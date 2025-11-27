@@ -273,6 +273,8 @@ impl Profile {
             }
         }
 
+        writeln!(w, "{} fetchme", "$".bright_green())?;
+
         let stats_lines = lines.into_iter().flatten().collect::<Vec<String>>();
         let avatar_lines = self.avatar.lines().collect::<Vec<&str>>();
 

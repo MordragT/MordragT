@@ -9,15 +9,14 @@ pub mod profile;
 use profile::{Options, Profile};
 
 fn main() -> Result<()> {
-    let token = env::var("ACCESS_TOKEN").expect("ACCESS_TOKEN environment variable not set");
-    let username = env::var("USER_NAME").expect("USER_NAME environment variable not set");
+    let token = env::var("GITHUB_TOKEN").expect("ACCESS_TOKEN environment variable not set");
 
     let birth = NaiveDateTime::parse_from_str("21.04.2000 22:00:00", "%d.%m.%Y %H:%M:%S")?;
     let birth = DateTime::<Utc>::from_naive_utc_and_offset(birth, Utc);
 
     let options = Options {
         token,
-        username,
+        username: "mordragt".to_owned(),
         birth: Some(birth),
         linkedin: Some("thomas-wehmoeller".to_owned()),
         os: Some("NixOS 25.11 (Xantusia) x86_64".to_owned()),

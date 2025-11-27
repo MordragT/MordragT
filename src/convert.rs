@@ -20,7 +20,7 @@ impl Options {
         width: None,
         font: "Adwaita Mono",
         light_bg: "#FFFFFF",
-        dark_bg: "#1E1E1E",
+        dark_bg: "#101010",
         font_size: 14,
         length_adjust: None,
         sourcemap: false,
